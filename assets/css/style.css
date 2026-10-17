@@ -1,0 +1,9 @@
+/* style tambahan di luar bootstrap */
+
+.header-app {
+    background: #2f5d50;
+}
+
+.konten-app {
+    max-width: 900px;
+}

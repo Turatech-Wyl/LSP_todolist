@@ -1,0 +1,8 @@
+# File database dibuat otomatis saat aplikasi dijalankan
+database/*.sqlite
+database/*.sqlite-journal
+
+# File sistem / editor
+.DS_Store
+.vscode/
+.idea/
