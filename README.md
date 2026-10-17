@@ -20,7 +20,7 @@ Status buku terdiri dari *Belum Dibaca*, *Sedang Dibaca*, dan *Selesai*.
 ## Teknologi
 
 - PHP 8 (native) dengan PDO
-- SQLite 3, berupa file sehingga tidak perlu server database
+- SQLite 3
 - Bootstrap 5.3.3, disimpan lokal di `assets/css` sehingga tidak butuh koneksi internet
 
 ## Instalasi dan Menjalankan
@@ -106,7 +106,3 @@ Semua query memakai prepared statement, dan semua output ke HTML di-escape denga
   dan `ubahBuku()`, lalu tambahkan input serta kolom tabelnya di `index.php`.
 - **Setelah mengubah kode**: jalankan `php -l <nama file>`, lalu coba lagi fitur tambah, edit,
   checkbox, dan hapus di browser sambil memantau console di DevTools.
-
-## Pembuat
-
-Willie Putra Angkasa
